@@ -1,0 +1,122 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.initial {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dee0e3;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.initial-txt {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.upper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #334155;
+}
+
+.time {
+  font-size: 12px;
+  color: #7e858e;
+}
+
+.com {
+  color: #475569;
+}
+
+.like-btn {
+  background-color: transparent;
+  border-width: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.like-img {
+  margin-right: 8px;
+}
+
+.del-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #7e858e;
+}
+
+@media screen and (min-width: 768px) {
+  .like-img {
+    width: 20px;
+  }
+
+  .like-btn {
+    font-weight: 600;
+    color: #7e858e;
+  }
+
+  .del-icon {
+    width: 20px;
+  }
+}
